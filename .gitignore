@@ -1,0 +1,68 @@
+# Django specific
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+*.bak
+*.swp
+*.swo
+__pycache__/
+db.sqlite3
+media/
+
+# Django static files
+/static/
+/staticfiles/
+
+# Configuration files
+.env
+.env.*
+*.env
+
+# Local virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage
+.coverage
+*.cover
+coverage.xml
+nosetests.xml
+*.tox
+*.nox
+*.coverage
+*.hypothesis
+*.pytest_cache/
+
+# Pytest
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+
+# Pylint
+pylint-report.txt
+pylint-global-message.txt
